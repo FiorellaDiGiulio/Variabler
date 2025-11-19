@@ -8,12 +8,12 @@ export class Person {
         this.meta = meta;
 }
 
-getFullName() {
-    return `${this.firstName} ${this.lastName}`;
-}
+// getFullName() {
+//     return `${this.firstName} ${this.lastName}`;
+// }
 
 getInfo() {
-    return `${this.firstName}`
+    return `${this.firstName} ${this.lastName} är ${this.age} år gammal. Aktiv ${this.meta.role} = ${this.isActive} `;
 }
 
 }
