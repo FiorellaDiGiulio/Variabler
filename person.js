@@ -13,7 +13,7 @@ getFullName() {
 }
 
 getInfo() {
-    return `${this.firstName}`
+    return `${this.getFullName()}, ${this.age} år, roll: ${this.meta.role}, aktiv: ${this.isActive}`;
 }
 
 }
